@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .movie {
+            display: flex;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        .movie img {
+            width: 150px;
+            height: auto;
+            margin-right: 20px;
+        }
+
+        .movie-info {
+            flex: 1;
+        }
+
+        .movie-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .movie-genre {
+            color: #555;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+
+        .movie-description {
+            font-size: 1em;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Movie Recommendations</h1>
+        <p>Discover your next favorite movie!</p>
+    </header>
+
+    <div class="container">
+        <div class="movie">
+            <img src="https://via.placeholder.com/150" alt="Movie Poster">
+            <div class="movie-info">
+                <h2 class="movie-title">Inception</h2>
+                <p class="movie-genre">Genre: Sci-Fi, Thriller</p>
+                <p class="movie-description">A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.</p>
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="https://via.placeholder.com/150" alt="Movie Poster">
+            <div class="movie-info">
+                <h2 class="movie-title">The Shawshank Redemption</h2>
+                <p class="movie-genre">Genre: Drama</p>
+                <p class="movie-description">Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.</p>
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="https://via.placeholder.com/150" alt="Movie Poster">
+            <div class="movie-info">
+                <h2 class="movie-title">The Dark Knight</h2>
+                <p class="movie-genre">Genre: Action, Crime, Drama</p>
+                <p class="movie-description">When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
